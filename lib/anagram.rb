@@ -13,7 +13,7 @@ class Anagram
   anagrams = anagram.map{|words| words.split("").sort}
      words = word.split("").sort
      binding.pry
-    if anagrams
+    if anagrams.include?(words)
        return word
     else
        []
