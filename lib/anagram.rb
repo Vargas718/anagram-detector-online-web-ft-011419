@@ -11,16 +11,16 @@ class Anagram
   def match(anagram)
   anagram =  word.split("") == anagram.map{|words| words.split("")}
     
-     true 
-       words
+    if anagram
+       return word
     else
        []
     end 
-      anagram
+      
    
   
   
-    binding.pry
+   # binding.pry
     
   end
 end
