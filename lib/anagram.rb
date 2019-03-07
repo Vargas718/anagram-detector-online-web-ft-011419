@@ -13,7 +13,7 @@ class Anagram
    
   
   
-    binding.pry
+    #binding.pry
     
   end
 end
