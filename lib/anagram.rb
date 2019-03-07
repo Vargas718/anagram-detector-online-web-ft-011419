@@ -9,7 +9,8 @@ class Anagram
   end
   
   def match(anagram)
-   word.split("") == anagram.map{|words| words.split("")}
+    if word.split("") == anagram.map{|words| words.split("")}
+      
    
   
   
