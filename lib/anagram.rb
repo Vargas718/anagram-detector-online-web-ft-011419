@@ -16,6 +16,7 @@ class Anagram
       puts words
     else
       puts []
+    end
       
    
   
