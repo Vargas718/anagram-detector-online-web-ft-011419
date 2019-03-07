@@ -10,7 +10,7 @@ class Anagram
   
   def match(anagram)
 binding.pry 
-  anagram =  word.split("").sort == anagram.map{|words| words.split("").sort}
+  anagram = word.split("").sort == anagram.map{|words| words.split("").sort}
     
     if anagram
        return word
