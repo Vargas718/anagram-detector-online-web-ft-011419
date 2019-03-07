@@ -9,10 +9,11 @@ class Anagram
   end
   
   def match(anagram)
-binding.pry 
-  anagram = word.split("").sort == anagram.map{|words| words.split("").sort}
-    
-    if anagram
+
+  anagrams = anagram.map{|words| words.split("").sort}
+     words = word.split("").sort
+     binding.pry
+    if anagrams
        return word
     else
        []
