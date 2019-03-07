@@ -12,9 +12,9 @@ class Anagram
    word.split("") == anagram.map{|words| words.split("")
     
     if true 
-      puts 
+       words
     else
-      puts []
+       []
     end }
       
    
