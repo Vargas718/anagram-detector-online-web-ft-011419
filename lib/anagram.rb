@@ -10,10 +10,10 @@ class Anagram
   
   def match(anagram)
 
-  anagrams = anagram.map{|words| words.split("").sort}
-     words = word.split("").sort
+  words = anagram.map{|words| words.split("").sort}
+     match_word = word.split("").sort
      binding.pry
-    if anagrams.include?(words)
+    if words.include?(match_word)
        return word
     else
        []
