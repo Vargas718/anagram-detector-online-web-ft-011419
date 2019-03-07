@@ -9,13 +9,13 @@ class Anagram
   end
   
   def match(anagram)
-  anagram =  word.split("") == anagram.map{|words| words.split("")
+  anagram =  word.split("") == anagram.map{|words| words.split("")}
     
-    if true 
+     true 
        words
     else
        []
-    end }
+    end 
       anagram
    
   
